@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<!---->
+<!---->
+<!-- Estilo para todo el documento -->
+<!---->
+<!---->
+<style>
+  img {
+    border: 1px solid #000;
+    margin: 5px 0px 15px 0px;
+
+    max-width: 100%;
+    height: auto;
+  }
+
+  table,
+  th,
+  td,
+  tr {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+  }
+
+  th {
+    background-color: #FF7C7C;
+  }
+
+  #banner {
+    display: block;
+  }
+
+  .images {
+    display: inline-block;
+    max-width: 40%;
+    margin: 0 2.5%;
+    vertical-align: middle;
+  }
+</style>
+
+<body>
+  <!---->
+  <!---->
+  <!--    OBJETIVO DEL PROYECTO      -->
+  <!---->
+  <!---->
+  <div class="instruction">
+    <div class="status-triangle">Objetivo del proyecto:</div>
+    <div>
+      <p>En la clase 108, aprendiste cómo hacer una comparación de cadenas.</p>
+      <p>En este proyecto tendrás que practicar y aplicar lo aprendido en clase y crear un juego de
+        vacas y toros.</p>
+    </div>
+  </div>
+  <!---->
+  <!---->
+  <!-- HISTORIA -->
+  <!---->
+  <!---->
+  <div class="instruction">
+    <div class="status-triangle">Historia:</div>
+    <div>
+      <p>Esteban está aprendiendo a programar. Está construyendo un juego llamado vacas y toros.
+        Este es un juego de dos jugadores donde los jugadores jugarán contra la computadora.</p>
+      <p>Esteban completó algo de la programación, pero ahora está atascado. ¿Puedes ayudarlo a
+        completar la programación del juego vacas y toros?</p>
+      <p>¿Puedes ayudar a Chris a crear y establecer un nuevo código para su casillero?</p>
+      <center>
+        <div id="banner">
+          <div class="images">
+            <img src="https://s3-whjr-curriculum-uploads.whjr.online/e03ed73c-5516-421f-a364-dd0114edc671.png">
+          </div>
+
+          <div class="images">
+            <img src="https://s3-whjr-curriculum-uploads.whjr.online/d6454056-d46a-4e31-b4c8-29188784670a.png">
+          </div>
+      </center>
+
+      <p style="color:red"><b>*Esto es solo para tu referencia. Esperamos que apliques tu propia creatividad en el
+          proyecto.</b></p>
+    </div>
+  </div>
+  <!---->
+  <!---->
+  <!-- PRIMEROS PASOS -->
+  <!---->
+  <!---->
+  <div class="instruction">
+    <div class="status-triangle">Primeros pasos:</div>
+    <p>
+    <ol>
+      <li>Abre el siguiente enlace: <a
+          href="https://x.thunkable.com/projects/62bcc8770ce94c0012fe33ae/47632f1a-1b7a-4f3f-920c-b92d0734c723/designer">plantilla
+          del proyecto</a>.
+      </li>
+      <li><b>Inicia sesión con Google</b></li>
+      <li>Haz clic en Remix.</li>
+      <li>Cambia el nombre del proyecto a <b>Proyecto 108</b> y <b>guárdalo</b>.</li>
+      <li>Comienza a realizar los cambios.</li>
+    </ol>
+    </p>
+  </div>
+
+  <!-- TAREAS ESPECÍFICAS -->
+  <div class="instruction">
+    <div class="status-triangle">Tareas específicas para completar el proyecto:</div>
+    <ol>
+      <li>Haz clic en <b>Preview</b> - <em>(vista previa)</em> o <b>live test</b> - <em>(prueba en vivo)</em> en la plantilla para ver
+        el diseño y el código de la app:
+        <ul>
+          <li>Diseño:<br>
+            <img src="https://s3-whjr-curriculum-uploads.whjr.online/4fb8efee-9383-45af-96a0-f5b5c4c2f1a5.png">
+          </li>
+          <li>Código:<br>
+          <b>*Nota:</b> haz clic en el signo de interrogación en cada bloque de código para ver
+          los comentarios.<br>
+          <img src="https://s3-whjr-curriculum-uploads.whjr.online/be3e4816-ab8a-4828-8e45-d6a98b6406cf.png">
+        </li>
+          <li>El siguiente código ya fue agregado:
+            <ul>
+              <li>Variables inicializadas:<br>
+                <img src="https://s3-whjr-curriculum-uploads.whjr.online/90adcc13-1267-4c5f-8f6c-ef7f3aa4f4fa.png">
+              </li>
+              <li>Evento para <b>cuando la pantalla de juego se abre</b>: genera un número</li>
+              aleatorio para almacenarlo en la <b>variable númeroSecreto de la app</b>.<br>
+              <img src="https://s3-whjr-curriculum-uploads.whjr.online/6d31e9ff-30a7-487c-8e63-61d9aedad5c9.png">
+            </ul>
+          </li>
+          <li>Evento para el hacer clic en el <b>BotónEnviar</b>:<br>
+            <img src="https://s3-whjr-curriculum-uploads.whjr.online/f1b4e59b-03ed-4e81-825d-3418941e48fd.png">
+          </li>
+          <li>Tienes que escribir el código en la función <b>vacas</b> y <b>toros</b> con el bloque if
+            comprobando el parámetro.<br>
+            <img src="https://s3-whjr-curriculum-uploads.whjr.online/a9c56d89-ab81-4fe2-bc28-ab34edfcfa61.png">
+          </li>
+        </ul>
+      </li>
+      <li>Código para <b>vacas</b>:
+        <ul>
+          <li>Escribe la lógica para verificar si el número de suposición y el número secreto
+            tienen los mismos dígitos.
+            <ul>
+              <li>Agrega un <b>bucle for</b> que se ejecute para tres dígitos.</li>
+              <li>Dentro de este <b>bucle for</b>, agrega un <b>bloque if</b> para verificar si el
+                <b>númeroSuposición</b> contiene letras del <b>númeroSecreto</b>.</li>
+              <li>Usa el <b>bloque contain</b> para verificar la condición.</li>
+              <li>Usa el bloque <b>cambio de variable</b> para aumentar el valor de la variable
+                <b>cuentaVacas</b>.</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      *La condición final se verá como se muestra a continuación:
+      <li>Código para <b>toros</b>:<br>
+        <img src="https://s3-whjr-curriculum-uploads.whjr.online/61b27931-bc5d-4bba-bee8-efde798929ca.png">
+        <ul>
+          <li>Compara la variable <b>númeroSuposición</b> y <b>númeroSecreto</b> para verificar si el
+            dígito correcto está presente en la posición correcta en el <b>númeroSuposición</b>.
+            <ul>
+              <li>Agrega un <b>bucle for</b> que se ejecute para tres dígitos.</li>
+              <li>Configura una condición para comparar los dígitos en el
+                <b>númeroSuposición</b> y el <b>númeroSecreto</b>.</li>
+              <li>Aumenta el valor de la variable <b>cuentaToros</b> en 1 en el bloque if.</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      *La condición final se verá como se muestra a continuación:<br>
+      <img src="https://s3-whjr-curriculum-uploads.whjr.online/1f2311f5-1c17-4e4d-8914-12888c4e5162.png">
+      <li>Código para el <b>BotónEnviar</b>:
+        <ul>
+          <li>Usa un bloque join - <em>(unir)</em> para mostrar la siguiente información en
+            <b>EtiquetaMostrar</b>. <span style="color:red">(Consulta las pistas 1 y 2)</span>.</li>
+          <li>Usa una condición if para comparar la variable <b>númeroSecreto</b> con
+            <b>númeroSuposición</b>. <span style="color:red">(Consulta la pista 3)</span>.
+            <ul>
+              <li>Si <b>númeroSecreto</b> es igual a <b>númeroSuposición</b>, usa los siguientes
+                bloques para mostrar el mensaje ganador.
+              <img src="https://s3-whjr-curriculum-uploads.whjr.online/8451b701-98e7-4e76-ad47-f32b2a2de297.png">
+              </li>
+            </ul>
+          </li>
+          <li>Borra la <b>entrada_texto1</b> fuera del bloque if.<br>
+          <img src="https://s3-whjr-curriculum-uploads.whjr.online/53d5f2c6-3caa-4c08-86cf-bf056beead3c.png">
+          </li>
+        </ul>
+      </li>
+
+
+
+
+
+      <li>Haz clic en <b>Live Test</b> - <em>(prueba en vivo)</em> o <b>“Preview”</b> - <em>(vista previa)</em> una vez
+        para revisar si está funcionando.</li>
+    </ol>
+    <span style="color:red">
+      <p><b>*Consulta las imágenes proporcionadas anteriormente como referencia.</b></p>
+    </span>
+  </div>
+
+  <!-- ENTREGA DEL PROYECTO -->
+  <div class="instruction">
+    <div class="status-triangle">Entrega del proyecto:</div>
+    <ol>
+      <li>Haz clic en la barra con el URL.<br>
+        <img src="https://s3-whjr-curriculum-uploads.whjr.online/206e2cb0-c555-40f5-ad3c-fab276fc6c6f.png"><br>
+      </li>
+      <li>Selecciona y copia (ctrl+c o cmd+c) el URL del proyecto.<br>
+        <img src="https://s3-whjr-curriculum-uploads.whjr.online/da015788-ae2a-4332-8035-11586b14fb13.gif"><br>
+      </li>
+      <li>Envía tu proyecto pegando (ctrl+v o cmd+v) el URL en el panel.<br>
+        <img src="https://s3-whjr-curriculum-uploads.whjr.online/4228439c-60d3-4d9a-a281-142eacf05287.jpg"><br>
+      </li>
+    </ol>
+  </div>
+
+  <!-- PISTAS -->
+  <div class="instruction">
+    <div class="status-triangle">Pistas:</div>
+    <ol>
+      <li> Para mostrar el texto con varios textos, puedes expandir el bloque join usando el
+        símbolo de configuración.<br>
+        <img src="https://s3-whjr-curriculum-uploads.whjr.online/36253b57-784b-440a-820b-956a99ad9560.png"><br>
+      </li>
+      <li>Agrega bloques a las ranuras del bloque join como se muestra a continuación (bloque
+        de texto, bloque de newline y bloques de las variables) para mostrar el texto.<br>
+        <img src="https://s3-whjr-curriculum-uploads.whjr.online/fd8fb99d-1448-46aa-b87c-367dc05e35ab.png">
+      </li>
+      <li>Usa el siguiente código para comparar la variable de <b>númeroSecreo</b> con el
+        <b>númeroSuposición</b>.<br>
+        <img src="https://s3-whjr-curriculum-uploads.whjr.online/ef54e4ab-af4b-42fb-a4d5-922204003ae5.png">
+      </li>
+    </ol>
+  </div>
+
+  <!--LEYENDA-->
+  <p>
+    <b>RECUERDA... Haz tu mejor esfuerzo, eso es lo más importante. </b>
+    <br>
+    Después de entregar tu proyecto, tu maestra te enviará comentarios sobre tu
+    trabajo.
+  </p>
+  <p><b>———— xxx ————— xxx ————— xxx ————— xxx ————— xxx ——</b></p>
+</body>
+
+</html>
